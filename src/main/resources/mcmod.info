@@ -1,0 +1,16 @@
+[
+{
+  "modid": "kfc",
+  "name": "The KFC Mod",
+  "description": "Adds lot's and lot's of KFC",
+  "version": "1.0",
+  "mcversion": "1.12.2",
+  "url": "https://minecraft.curseforge.com/projects/kfc",
+  "updateUrl": "",
+  "authorList": ["thenoseofsauron"],
+  "credits": "EvilStickFigure - Textures",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
