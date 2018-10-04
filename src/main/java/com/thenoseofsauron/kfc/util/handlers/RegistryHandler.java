@@ -1,4 +1,4 @@
-package com.thenoseofsauron.kfc.util.handelers;
+package com.thenoseofsauron.kfc.util.handlers;
 
 import com.thenoseofsauron.kfc.init.ModItems;
 import com.thenoseofsauron.kfc.util.IHasModel;
@@ -11,7 +11,7 @@ import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 @EventBusSubscriber
-public class RegistryHandeler {
+public class RegistryHandler {
 	
 	@SubscribeEvent
 	public static void onItemRegister(RegistryEvent.Register<Item> event) {
