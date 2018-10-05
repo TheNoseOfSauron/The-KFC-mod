@@ -24,7 +24,7 @@ public class FoodBase extends ItemFood implements IHasModel{
 	@Override
 	public void registerModels() {
 		
-		KFC.proxy.registerItemRenderer(this, 0, "inventory");
+		KFC.proxy.registerItemFoodRenderer(this, 0, "inventory");
 		
 	}
 	
