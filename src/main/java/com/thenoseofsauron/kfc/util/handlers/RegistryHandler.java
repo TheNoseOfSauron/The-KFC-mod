@@ -4,6 +4,7 @@ import com.thenoseofsauron.kfc.init.ModItems;
 import com.thenoseofsauron.kfc.util.IHasModel;
 
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemFood;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -17,6 +18,7 @@ public class RegistryHandler {
 	public static void onItemRegister(RegistryEvent.Register<Item> event) {
 		
 		event.getRegistry().registerAll(ModItems.ITEMS.toArray(new Item[0]));
+		event.getRegistry().registerAll(ModItems.FOODS.toArray(new ItemFood[0]));
 		
 	}
 	
@@ -33,7 +35,7 @@ public class RegistryHandler {
 			
 		}
 		
-		for(Item item : ModItems.FOODS) {
+		for(ItemFood item : ModItems.FOODS) {
 			
 			if(item instanceof IHasModel) {
 				
