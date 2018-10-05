@@ -33,6 +33,16 @@ public class RegistryHandler {
 			
 		}
 		
+		for(Item item : ModItems.FOODS) {
+			
+			if(item instanceof IHasModel) {
+				
+				((IHasModel)item).registerModels();
+				
+			}
+			
+		}
+		
 	}
 	
 }
