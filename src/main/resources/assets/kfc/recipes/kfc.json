@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shapeless",
+ 
+    "ingredients":
+    [
+ 
+    {
+      "item": "minecraft:cooked_chicken"
+    },
+ 
+    {
+      "item": "minecraft:paper"
+    },
+    
+    {
+      "item": "minecraft:paper"
+    },
+    
+    {
+      "item": "minecraft:paper"
+    }
+   
+    ],
+ 
+    "result":
+    {
+        "item": "kfc:kfc",
+        "count": 1
+    }
+}
