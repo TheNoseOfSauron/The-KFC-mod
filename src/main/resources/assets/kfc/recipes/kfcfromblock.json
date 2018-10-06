@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+ 
+    "ingredients":
+    [
+ 
+    {
+      "item": "kfc:kfc_block"
+    }
+    
+    ],
+ 
+    "result":
+    {
+        "item": "kfc:kfc",
+        "count": 9
+    }
+}

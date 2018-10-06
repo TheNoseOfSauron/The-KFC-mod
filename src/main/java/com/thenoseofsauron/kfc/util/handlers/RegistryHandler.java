@@ -1,8 +1,10 @@
 package com.thenoseofsauron.kfc.util.handlers;
 
+import com.thenoseofsauron.kfc.init.ModBlocks;
 import com.thenoseofsauron.kfc.init.ModItems;
 import com.thenoseofsauron.kfc.util.IHasModel;
 
+import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemFood;
 import net.minecraftforge.client.event.ModelRegistryEvent;
@@ -19,6 +21,13 @@ public class RegistryHandler {
 		
 		event.getRegistry().registerAll(ModItems.ITEMS.toArray(new Item[0]));
 		event.getRegistry().registerAll(ModItems.FOODS.toArray(new ItemFood[0]));
+		
+	}
+	
+	@SubscribeEvent
+	public static void onBlockRegister(RegistryEvent.Register<Block> event) {
+		
+		event.getRegistry().registerAll(ModBlocks.BLOCKS.toArray(new Block[0]));
 		
 	}
 	
@@ -40,6 +49,16 @@ public class RegistryHandler {
 			if(item instanceof IHasModel) {
 				
 				((IHasModel)item).registerModels();
+				
+			}
+			
+		}
+		
+		for(Block block : ModBlocks.BLOCKS) {
+			
+			if(block instanceof IHasModel) {
+				
+				((IHasModel)block).registerModels();
 				
 			}
 			

@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "kfc:kfc_block_compressed" }
+    }
+}

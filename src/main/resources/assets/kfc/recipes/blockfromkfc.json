@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "###",
+        "###",
+        "###"
+    ],
+   
+    "key":
+    {
+        "#":
+        {
+            "item": "kfc:kfc"
+        }
+    },
+   
+    "result":
+    {
+        "item": "kfc:kfc_block",
+        "count": 1
+    }
+}

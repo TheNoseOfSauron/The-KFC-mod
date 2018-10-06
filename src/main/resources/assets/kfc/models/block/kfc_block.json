@@ -1,0 +1,9 @@
+{
+   "parent": "block/cube_bottom_top",
+   "textures": {
+       "particle": "kfc:blocks/kfc_top",
+       "top": "kfc:blocks/kfc_top",
+       "side": "kfc:blocks/kfc_side",
+       "bottom": "kfc:blocks/kfc_bottom"
+   }
+}
