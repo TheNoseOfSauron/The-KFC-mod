@@ -12,9 +12,8 @@ import net.minecraft.item.ItemFood;
 public class ModItems {
 	
 	public static final List<Item> ITEMS = new ArrayList<Item>();
+	public static final List<Item> FOODS = new ArrayList<Item>();
 	
-	public static final List<ItemFood> FOODS = new ArrayList<ItemFood>();
-	
-	public static final ItemFood KFC = new FoodBase("KFC", 10, 1.0f, true);
+	public static final Item KFC = new FoodBase("KFC", 10, 1.0f, true);
 	
 }

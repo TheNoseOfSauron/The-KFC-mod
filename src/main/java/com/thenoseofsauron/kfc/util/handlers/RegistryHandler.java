@@ -35,7 +35,7 @@ public class RegistryHandler {
 			
 		}
 		
-		for(ItemFood item : ModItems.FOODS) {
+		for(Item item : ModItems.FOODS) {
 			
 			if(item instanceof IHasModel) {
 				
